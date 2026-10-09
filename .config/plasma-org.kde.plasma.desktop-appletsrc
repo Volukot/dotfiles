@@ -29,7 +29,7 @@ DialogWidth=810
 changedPositions={}
 iconSize=4
 lastResolution=2133x1200
-positions={"1920x1080":["1","13"],"2048x1152":["1","14"],"2133x1200":["1","15"],"2560x1440":["1","18"]}
+positions={"1920x1080":["1","13"],"2048x1152":["1","14"],"2133x1200":["1","15","desktop:/org.signal.Signal.desktop","0","0"],"2560x1440":["1","18"]}
 previews=false
 sortMode=-1
 textLines=1
@@ -125,7 +125,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][320][Applets][323][Configuration][General]
-launchers=preferred://filemanager,applications:kitty.desktop,applications:firefox.desktop
+launchers=preferred://filemanager,applications:kitty.desktop,applications:org.mozilla.firefox.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -248,6 +248,7 @@ extraItems=org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.plasma.blueto
 hiddenItems=Arch-Update,Easy Effects,org.kde.plasma.kclock_1x2,NeoChat,openrgb,trayid35751,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.merkuro.contact.applet,org.kde.plasma.weather,org.kde.plasma.trash,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.diskquota
 iconSpacing=1
 knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+shownItems=org.signal.Signal,steam
 
 [Containments][320][Applets][342]
 immutability=1
@@ -311,7 +312,7 @@ DialogWidth=810
 [Containments][343][Applets][344][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard
+url=https://www.imood.com/dashboard
 useDefaultUrl=true
 useMinViewWidth=false
 
@@ -556,7 +557,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][413][Applets][414][Configuration][General]
-launchers=preferred://filemanager,applications:kitty.desktop,applications:chromium.desktop
+launchers=preferred://filemanager,applications:kitty.desktop,applications:org.mozilla.firefox.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -770,7 +771,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][442][Applets][420][Configuration][General]
-launchers=preferred://filemanager,applications:kitty.desktop,applications:firefox.desktop
+launchers=preferred://filemanager,applications:kitty.desktop,applications:org.mozilla.firefox.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -794,6 +795,8 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][442][Applets][445][Configuration][General]
+alphaSort=true
+appNameFormat=1
 favoritesPortedToKAstats=true
 paneSwap=true
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
@@ -831,7 +834,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][446][Applets][448][Configuration][General]
-launchers=preferred://filemanager,applications:kitty.desktop,applications:firefox.desktop
+launchers=preferred://filemanager,applications:kitty.desktop,applications:org.mozilla.firefox.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -961,7 +964,7 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][446][Applets][470][Configuration]
 popupHeight=451
-popupWidth=810
+popupWidth=811
 
 [Containments][446][Applets][470][Configuration][Appearance]
 dateFormat=longDate
@@ -1001,3 +1004,7 @@ showOnlyCurrentDesktop=false
 sortingStrategy=2
 wheelEnabled=AdjustVolume
 wheelSkipMinimized=false
+
+[ScreenMapping]
+itemsOnDisabledScreens=2,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,39,file:///home/kot/Roms,file:///home/kot/Mumble-2026-07-15-18-56-04-100.64.226.70-Mixdown.opus,file:///home/kot/Beat Saber,file:///home/kot/Musique,file:///home/kot/OpenMPT.desktop,file:///home/kot/sshfs.sh,file:///home/kot/Documents,file:///home/kot/Software,file:///home/kot/speedtest-cli,file:///home/kot/backup,file:///home/kot/ALCOM,file:///home/kot/data,file:///home/kot/config,file:///home/kot/Téléchargements,file:///home/kot/Images,file:///home/kot/meow :3,file:///home/kot/mumble-record,file:///home/kot/Games,file:///home/kot/MusiqueArchive,file:///home/kot/xrandr.sh,file:///home/kot/AppImages,file:///home/kot/qsstv,file:///home/kot/a,file:///home/kot/LICENSE,file:///home/kot/RomsTowerUnite,file:///home/kot/vmware,file:///home/kot/steam-guard-extractor-linux.sh,file:///home/kot/OyasumiVR,file:///home/kot/start-cde.sh,file:///home/kot/Vidéos,file:///home/kot/Musique2,file:///home/kot/hydrus_export,file:///home/kot/Unity,file:///home/kot/steamvr,file:///home/kot/Public,file:///home/kot/gameconfig,file:///home/kot/README.md,file:///home/kot/hypnotize-money.gif,file:///home/kot/cdesktopenv-code
+screenMapping=desktop:/Téléchargements/2026-05,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/nitter tweet parser - fetches tags - 2020-07-30.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/oyasumi-linux.tar.zst,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Musique2,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://meowbytexture.png,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-03,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://public,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/README.md,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/nitter 2021.02.08(1).png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://qemu-anti-detection,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://qemu-8.2.2,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://reencode.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/data,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://plasmapackages.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://material_diffuse.png,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/hydrus-companion-master,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/social-stream-ninja.xpi,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/STOP.gif,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://config,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/fed1123fdc8cbe90d77d68e3b103a231338eeedfe50360be0f6a6b22a4be5bbe.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://output.gif,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.57.36.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://steamvr,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/RomsTowerUnite,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--tlchargements-bhbb,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://roms,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Games,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Deadlock.desktop,3,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://gameconfig,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musique2,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/22. Version 1.7.zip,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hyprland.lua.bak,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/gameconfig,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-01,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Exposing Mintpaws .odt,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/CopiesÉcran,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Beat Saber,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/catppuccin-mocha.theme,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musique,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/assets_SE_meow.ogg,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/social_stream-main.zip,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://dotfiles_backup_2026-05-22_18-19-55,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://games,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Unity,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/osu!.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hydrus_export,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/nitter 2021.02.08.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Software,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/LICENSE,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://pkglist.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/OyasumiVR,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/vmware,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://pacstrap.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/login,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install_signal_theme.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Mumble-2026-07-15-18-56-04-100.64.226.70-Mixdown.opus,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hyprland.conf,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-06,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://virt.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Half-Life VR Mod.desktop,3,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/zaaru (EXPLICIT).png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--copiescran-g7a,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/lockplasma.sh,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://openrgb,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/The Lab.desktop,3,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://alcom,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/utopianvee-260619-1834-part2,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2025-12,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/ssstwitter.com_1781835630447.mp4,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/HLH5UGraEAA2vPg.jpeg,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Roms,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/RomsOld,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://romsold,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://vmware,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://package-lock.json,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/utopianvee-260619-1834,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/compose.yaml,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--vidos-dsa,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/palette.json,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://license,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://readme.md,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://backup,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://images,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Oyasumi,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/backup,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://qemu-8.2.2.tar.xz,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Images,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/steamvr,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/utopianvee-260619-1834-part1,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/schoolnvme,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://unlock.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-04,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/hydrus_export,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Musique,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install-dms-shell.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musiquearchive,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/unlock.sh,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://lockplasma.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://data,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Reddit - All in One (08.Nov.2025).png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/signal-2026-06-20-19-40-46-831_002.jpg,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://towerunite_meowby_workshoprig_v3.dae,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Public,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install_millennium.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200.zip,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.58.28.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://software,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/steam-guard-extractor-linux.sh,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/MusiqueArchive,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img.xz,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://documents,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-02,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://projets,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/1a308d16560e03c8a42ae33a8a771065f05463e63a195c602289a801004cba5d.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/config,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/AppImages,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/q3_50111670068200510.zip,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Documents,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21(1).png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/converted_gif.gif,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Vidéos,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137

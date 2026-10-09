@@ -3,6 +3,8 @@
 [[ $- != *i* ]] && return
 #PS1='[\u@\h \W]\$ '
 
+export PATH="$PATH:$HOME/.local/bin"
+
 alias ls='ls -lah --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -30,11 +32,9 @@ echo -e "        \x1b[35;1mWelcome to the Terminal >w<\x1b[0m"
 fastfetch
 
 eval "$(zoxide init bash)"
-# Created by `pipx` on 2026-03-22 01:23:54
-export PATH="$PATH:/home/kot/.local/bin"
 
 # Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/kot/.lmstudio/bin"
+export PATH="$PATH:$HOME/.lmstudio/bin"
 # End of LM Studio CLI section
 
 # Unity CLI

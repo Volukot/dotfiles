@@ -60,20 +60,6 @@ minLength=2560
 offset=0
 thickness=20
 
-[PlasmaViews][Panel 368]
-alignment=132
-floating=0
-panelLengthMode=0
-panelOpacity=2
-panelVisibility=0
-shell=org.kde.plasma.desktop
-
-[PlasmaViews][Panel 368][Defaults]
-maxLength=1920
-minLength=1920
-offset=0
-thickness=40
-
 [PlasmaViews][Panel 413]
 alignment=132
 floating=1

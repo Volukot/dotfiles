@@ -363,7 +363,6 @@ _launch=Search\tAlt+Space\tAlt+F2\tMeta+R
 ActiveWindowScreenShot=Ctrl+Print
 CurrentMonitorScreenShot=Shift+Print
 FullScreenScreenShot=Ctrl+Shift+Print
-OpenWithoutScreenshot=none
 RecordRegion=Meta+Print
 RecordScreen=Meta+Shift+Print
 RecordWindow=Meta+Ctrl+Print

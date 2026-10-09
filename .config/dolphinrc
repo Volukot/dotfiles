@@ -12,6 +12,7 @@ Places Icons Static Size=16
 
 [MainWindow]
 MenuBar=Disabled
+ToolBarsMovable=Enabled
 
 [Notification Messages]
 ConfirmRenameFileType=false
