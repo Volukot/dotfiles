@@ -79,7 +79,7 @@ alignment=2
 floating=1
 panelLengthMode=1
 panelOpacity=2
-panelVisibility=2
+panelVisibility=1
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 417][Defaults]
@@ -92,7 +92,7 @@ thickness=30
 alignment=1
 floating=1
 panelLengthMode=1
-panelVisibility=2
+panelVisibility=1
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 442][Defaults]
