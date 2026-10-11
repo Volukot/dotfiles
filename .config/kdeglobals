@@ -1,6 +1,6 @@
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=239, 241, 245
+Color=30, 30, 46
 ColorAmount=0.30000000000000004
 ColorEffect=2
 ContrastAmount=0.1
@@ -11,7 +11,7 @@ IntensityEffect=0
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=false
-Color=239, 241, 245
+Color=30, 30, 46
 ColorAmount=0.5
 ColorEffect=3
 ContrastAmount=0
@@ -21,52 +21,52 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=234, 118, 203
-BackgroundNormal=204, 208, 218
-DecorationFocus=234, 118, 203
-DecorationHover=188, 192, 204
-ForegroundActive=254, 100, 11
-ForegroundInactive=108, 111, 133
-ForegroundLink=234, 118, 203
-ForegroundNegative=210, 15, 57
-ForegroundNeutral=223, 142, 29
-ForegroundNormal=76, 79, 105
-ForegroundPositive=64, 160, 43
-ForegroundVisited=136, 57, 239
+BackgroundAlternate=245, 194, 231
+BackgroundNormal=49, 50, 68
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
 
 [Colors:Complementary]
-BackgroundAlternate=220, 224, 232
-BackgroundNormal=230, 233, 239
-DecorationFocus=234, 118, 203
-DecorationHover=188, 192, 204
-ForegroundActive=254, 100, 11
-ForegroundInactive=108, 111, 133
-ForegroundLink=234, 118, 203
-ForegroundNegative=210, 15, 57
-ForegroundNeutral=223, 142, 29
-ForegroundNormal=76, 79, 105
-ForegroundPositive=64, 160, 43
-ForegroundVisited=136, 57, 239
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
 
 [Colors:Header]
-BackgroundAlternate=220, 224, 232
-BackgroundNormal=230, 233, 239
-DecorationFocus=234, 118, 203
-DecorationHover=188, 192, 204
-ForegroundActive=254, 100, 11
-ForegroundInactive=108, 111, 133
-ForegroundLink=234, 118, 203
-ForegroundNegative=210, 15, 57
-ForegroundNeutral=223, 142, 29
-ForegroundNormal=76, 79, 105
-ForegroundPositive=64, 160, 43
-ForegroundVisited=136, 57, 239
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
 
 [Colors:Selection]
-BackgroundAlternate=234, 118, 203
-BackgroundNormal=234, 118, 203
-DecorationFocus=234, 118, 203
-DecorationHover=188, 192, 204
+BackgroundAlternate=245, 194, 231
+BackgroundNormal=245, 194, 231
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
 ForegroundActive=17, 17, 27
 ForegroundInactive=17, 17, 27
 ForegroundLink=17, 17, 27
@@ -77,49 +77,49 @@ ForegroundPositive=17, 17, 27
 ForegroundVisited=17, 17, 27
 
 [Colors:Tooltip]
-BackgroundAlternate=220, 224, 232
-BackgroundNormal=239, 241, 245
-DecorationFocus=234, 118, 203
-DecorationHover=188, 192, 204
-ForegroundActive=254, 100, 11
-ForegroundInactive=108, 111, 133
-ForegroundLink=234, 118, 203
-ForegroundNegative=210, 15, 57
-ForegroundNeutral=223, 142, 29
-ForegroundNormal=76, 79, 105
-ForegroundPositive=64, 160, 43
-ForegroundVisited=136, 57, 239
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=30, 30, 46
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
 
 [Colors:View]
-BackgroundAlternate=230, 233, 239
-BackgroundNormal=239, 241, 245
-DecorationFocus=234, 118, 203
-DecorationHover=188, 192, 204
-ForegroundActive=254, 100, 11
-ForegroundInactive=108, 111, 133
-ForegroundLink=234, 118, 203
-ForegroundNegative=210, 15, 57
-ForegroundNeutral=223, 142, 29
-ForegroundNormal=76, 79, 105
-ForegroundPositive=64, 160, 43
-ForegroundVisited=136, 57, 239
+BackgroundAlternate=24, 24, 37
+BackgroundNormal=30, 30, 46
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
 
 [Colors:Window]
-BackgroundAlternate=220, 224, 232
-BackgroundNormal=230, 233, 239
-DecorationFocus=234, 118, 203
-DecorationHover=188, 192, 204
-ForegroundActive=254, 100, 11
-ForegroundInactive=108, 111, 133
-ForegroundLink=234, 118, 203
-ForegroundNegative=210, 15, 57
-ForegroundNeutral=223, 142, 29
-ForegroundNormal=76, 79, 105
-ForegroundPositive=64, 160, 43
-ForegroundVisited=136, 57, 239
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
 
 [General]
-ColorSchemeHash=82b4c44acee81b0649998c07524d97c6131a5b22
+ColorSchemeHash=82f669cf546ddd0f0103c7e5b3df8d13777e7b58
 Name=COSMIC Dark
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -136,7 +136,6 @@ toolBarFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [KDE]
 AnimationDurationFactor=0.75
-AutomaticLookAndFeel=true
 AutomaticLookAndFeelOnIdle=false
 DefaultDarkLookAndFeel=Catppuccin Mocha Pink (Kot)
 DefaultLightLookAndFeel=Catppuccin Latte Pink (Kot)
@@ -168,10 +167,10 @@ EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
 
 [WM]
-activeBackground=239,241,245
-activeBlend=76,79,105
+activeBackground=30,30,46
+activeBlend=205,214,244
 activeFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-activeForeground=76,79,105
-inactiveBackground=220,224,232
-inactiveBlend=108,111,133
-inactiveForeground=108,111,133
+activeForeground=205,214,244
+inactiveBackground=17,17,27
+inactiveBlend=166,173,200
+inactiveForeground=166,173,200
