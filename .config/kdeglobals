@@ -118,6 +118,11 @@ ForegroundNormal=205, 214, 244
 ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
+[DirSelect Dialog]
+DirSelectDialog Size=640,480
+History Items[$e]=file:$HOME/Musique,file:$HOME/Software/AppImages,file:$HOME/Software/AppImages
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xae\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
 [General]
 ColorSchemeHash=82f669cf546ddd0f0103c7e5b3df8d13777e7b58
 Name=COSMIC Dark
@@ -127,15 +132,16 @@ UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintfull
 XftSubPixel=none
-fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-font=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-menuFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Rubik,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Rubik,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1
 shadeSortColumn=true
-smallestReadableFont=Rubik,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-toolBarFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=Rubik,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Rubik,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 AnimationDurationFactor=0.75
+AutomaticLookAndFeel=true
 AutomaticLookAndFeelOnIdle=false
 DefaultDarkLookAndFeel=Catppuccin Mocha Pink (Kot)
 DefaultLightLookAndFeel=Catppuccin Latte Pink (Kot)
@@ -149,7 +155,10 @@ Allow Expansion=false
 Automatically select filename extension=false
 Breadcrumb Navigation=false
 Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
 Preview Width=193
+Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
@@ -169,7 +178,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=30,30,46
 activeBlend=205,214,244
-activeFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+activeFont=Rubik,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=205,214,244
 inactiveBackground=17,17,27
 inactiveBlend=166,173,200

@@ -3,6 +3,7 @@
   "logo": {
     //"source": "~/.config/fastfetch/neocat.txt",
     //"type": "kitty",
+    "type": "iterm",
     "source": "~/.config/fastfetch/puffi_termedit_padding.png",
     "color": {
       "1": "1;95",

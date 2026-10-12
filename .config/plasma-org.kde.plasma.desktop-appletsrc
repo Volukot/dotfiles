@@ -5,107 +5,13 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][314]
-ItemGeometries-1280x720=
-ItemGeometries-1920x1080=
-ItemGeometries-2048x1152=
-ItemGeometries-2133x1200=
-ItemGeometries-2259x1271=
-ItemGeometries-2560x1440=
-ItemGeometriesHorizontal=
-activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=luisbocanegra.smart.video.wallpaper.reborn
+[Containments][2][Wallpaper][org.kde.image][General]
+Image=file:///home/deck/Images/assets/bg/plasma_localsharewallpapers/landscape_artifyber/
+SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
 
-[Containments][314][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][314][General]
-changedPositions={}
-iconSize=4
-lastResolution=2133x1200
-positions={"1920x1080":["1","13"],"2048x1152":["1","14"],"2133x1200":["1","15","desktop:/org.signal.Signal.desktop","0","0"],"2560x1440":["1","18"]}
-previews=false
-sortMode=-1
-textLines=1
-
-[Containments][314][Wallpaper][luisbocanegra.smart.video.wallpaper.reborn][General]
-BlurAnimationDuration=500
-BlurMode=0
-BlurRadius=20
-ChangeWallpaperMode=0
-LastVideo=file:///home/kot/Images/assets/bg/video/horizontal/animation_meme_flac.mkv
-LastVideoPosition=2260
-MuteMode=2
-PauseBatteryLevel=20
-VideoUrls=[{"filename":"file:///home/kot/Images/assets/bg/video/horizontal/animation_meme_flac.mkv","enabled":true,"duration":0,"customDuration":0,"playbackRate":0,"alternativePlaybackRate":0,"loop":false,"dayNightPhase":4}]
-Volume=0.0531005859375
-
-[Containments][314][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/assets/bg/horizontal/bafkreifryatvoqr3gtfzc2n2qqgyihrs7gw4jg3opyucyokbinmavciluu.jpg
-SlidePaths=/usr/share/wallpapers/
-
-[Containments][315]
-ItemGeometries-1050x1680=
-ItemGeometries-1280x720=
-ItemGeometries-1600x900=
-ItemGeometries-1680x1050=
-ItemGeometries-1920x1080=
-ItemGeometries-2048x1152=
-ItemGeometries-2133x1200=
-ItemGeometries-2560x1440=
-ItemGeometriesHorizontal=
-ItemGeometriesVertical=
-activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][315][ConfigDialog]
-DialogHeight=631
-DialogWidth=810
-
-[Containments][315][General]
-changedPositions={}
-filterMimeTypes=\\0
-lastResolution=2133x1200
-positions={"1050x1680":["1","9"],"1280x720":["1","11"],"1600x900":["1","14"],"1920x1080":["1","17"],"2133x1200":["1","19"]}
-sortMode=-1
-
-[Containments][315][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/assets/bg/plasma_localsharewallpapers/landscape_artifyber/
-SlidePaths=/usr/share/wallpapers/
-
-[Containments][316]
-ItemGeometries-1050x1680=
-ItemGeometries-1280x720=
-ItemGeometries-1680x1050=
-ItemGeometries-2560x1440=
-ItemGeometriesHorizontal=
-ItemGeometriesVertical=
-activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
-formfactor=0
-immutability=1
-lastScreen=2
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][316][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][316][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/assets/bg/plasma_localsharewallpapers/portrait_mix/
-SlidePaths=/home/kot/.local/share/wallpapers/,/usr/share/wallpapers/
+[Containments][3][Wallpaper][org.kde.image][General]
+Image=file:///home/deck/Images/assets/bg/plasma_localsharewallpapers/portrait_mix/
+SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][320]
 activityId=
@@ -137,7 +43,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][320][Applets][323][Configuration][General]
-launchers=preferred://filemanager,applications:kitty.desktop,applications:org.mozilla.firefox.desktop
+launchers=preferred://filemanager,applications:org.mozilla.firefox.desktop,applications:org.kde.konsole.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -149,6 +55,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][320][Applets][324][Configuration]
+PreloadWeight=55
 popupHeight=400
 popupWidth=560
 
@@ -239,6 +146,9 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][320][Applets][326][Applets][393][Configuration]
+PreloadWeight=26
+
 [Containments][320][Applets][326][Applets][394]
 immutability=1
 plugin=org.kde.plasma.bluetooth
@@ -256,10 +166,10 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][320][Applets][326][General]
-extraItems=org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.merkuro.contact.applet,org.kde.plasma.weather,org.kde.plasma.trash,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.diskquota
+extraItems=org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.trash,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.diskquota,org.kde.plasma.vault,org.kde.plasma.printmanager
 hiddenItems=Arch-Update,Easy Effects,org.kde.plasma.kclock_1x2,NeoChat,openrgb,trayid35751,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.merkuro.contact.applet,org.kde.plasma.weather,org.kde.plasma.trash,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.diskquota
 iconSpacing=1
-knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager
 shownItems=org.signal.Signal,steam
 
 [Containments][320][Applets][342]
@@ -271,20 +181,26 @@ popupHeight=451
 popupWidth=810
 
 [Containments][320][Applets][342][Configuration][Appearance]
+autoFontAndSize=false
+boldText=true
 dateFormat=longDate
 enabledCalendarPlugins=holidaysevents,pimevents
-fontWeight=400
+fontFamily=Rubik
+fontSize=12
+fontStyleName=Bold
+fontWeight=700
 showSeconds=Always
 
 [Containments][320][Applets][342][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+DialogHeight=540
+DialogWidth=720
 
 [Containments][320][Applets][444]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][320][Applets][444][Configuration]
+PreloadWeight=100
 popupHeight=647
 popupWidth=681
 
@@ -420,6 +336,9 @@ plugin=org.kde.plasma.manage-inputmethod
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][348][Applets][350][Applets][358][Configuration]
+PreloadWeight=55
+
 [Containments][348][Applets][350][Applets][359]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
@@ -484,14 +403,17 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][348][Applets][350][Applets][398][Configuration]
+PreloadWeight=26
+
 [Containments][348][Applets][350][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
 [Containments][348][Applets][350][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.mediacontroller
+extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.printmanager
 hiddenItems=org.kde.merkuro.contact.applet,org.kde.plasma.mediacontroller
-knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][348][General]
 AppletOrder=349;350
@@ -510,42 +432,31 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][366][Applets][367][Configuration]
+PreloadWeight=70
 popupHeight=521
 popupWidth=811
 
 [Containments][366][Applets][367][Configuration][Appearance]
+autoFontAndSize=false
 dateDisplayFormat=BelowTime
 dateFormat=longDate
 enabledCalendarPlugins=pimevents,holidaysevents
+fontFamily=Rubik
+fontWeight=400
 selectedTimeZones=Local,Europe/Paris
 showDate=false
 showSeconds=Always
 
 [Containments][366][Applets][367][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+DialogHeight=540
+DialogWidth=720
 
 [Containments][366][General]
 AppletOrder=367
 
-[Containments][412]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
-formfactor=0
-immutability=1
-lastScreen=3
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][412][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][412][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/assets/bg/horizontal/bafkreifryatvoqr3gtfzc2n2qqgyihrs7gw4jg3opyucyokbinmavciluu.jpg
-SlidePaths=/home/kot/.local/share/wallpapers/,/usr/share/wallpapers/
+[Containments][4][Wallpaper][org.kde.image][General]
+Image=file:///home/deck/Images/assets/bg/horizontal/bafkreifryatvoqr3gtfzc2n2qqgyihrs7gw4jg3opyucyokbinmavciluu.jpg
+SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][413]
 activityId=
@@ -569,7 +480,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][413][Applets][414][Configuration][General]
-launchers=preferred://filemanager,applications:kitty.desktop,applications:org.mozilla.firefox.desktop
+launchers=preferred://filemanager,applications:org.mozilla.firefox.desktop,applications:org.kde.konsole.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -582,8 +493,9 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][413][Applets][416][Configuration]
+PreloadWeight=100
 popupHeight=632
-popupWidth=664
+popupWidth=708
 
 [Containments][413][Applets][416][Configuration][ConfigDialog]
 DialogHeight=630
@@ -711,6 +623,9 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][417][Applets][423][Applets][439][Configuration]
+PreloadWeight=26
+
 [Containments][417][Applets][423][Applets][440]
 immutability=1
 plugin=org.kde.plasma.bluetooth
@@ -720,10 +635,10 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][417][Applets][423][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.merkuro.contact.applet,org.kde.plasma.kclock_1x2,org.kde.plasma.mediacontroller
+extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.printmanager
 hiddenItems=org.kde.merkuro.contact.applet,org.kde.plasma.kclock_1x2,org.kde.plasma.mediacontroller
 iconSpacing=1
-knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][417][Applets][441]
 immutability=1
@@ -734,10 +649,12 @@ popupHeight=451
 popupWidth=811
 
 [Containments][417][Applets][441][Configuration][Appearance]
+autoFontAndSize=false
 boldText=true
 dateFormat=longDate
 enabledCalendarPlugins=holidaysevents,pimevents
 fontFamily=Rubik
+fontSize=12
 fontStyleName=Bold
 fontWeight=700
 selectedTimeZones=Local,Europe/Paris
@@ -745,8 +662,8 @@ showDate=false
 showSeconds=Always
 
 [Containments][417][Applets][441][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+DialogHeight=540
+DialogWidth=720
 
 [Containments][417][Applets][441][Configuration][General]
 showSecondHand=true
@@ -783,7 +700,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][442][Applets][420][Configuration][General]
-launchers=preferred://filemanager,applications:kitty.desktop,applications:org.mozilla.firefox.desktop
+launchers=preferred://filemanager,applications:org.mozilla.firefox.desktop,applications:org.kde.konsole.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -799,8 +716,9 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][442][Applets][445][Configuration]
+PreloadWeight=100
 popupHeight=593
-popupWidth=681
+popupWidth=663
 
 [Containments][442][Applets][445][Configuration][ConfigDialog]
 DialogHeight=630
@@ -846,7 +764,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][446][Applets][448][Configuration][General]
-launchers=preferred://filemanager,applications:kitty.desktop,applications:org.mozilla.firefox.desktop
+launchers=preferred://filemanager,applications:org.mozilla.firefox.desktop,applications:org.kde.konsole.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -948,6 +866,9 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][446][Applets][450][Applets][466][Configuration]
+PreloadWeight=26
+
 [Containments][446][Applets][450][Applets][467]
 immutability=1
 plugin=org.kde.plasma.bluetooth
@@ -965,10 +886,10 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][446][Applets][450][General]
-extraItems=org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.merkuro.contact.applet,org.kde.plasma.weather,org.kde.plasma.trash,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.diskquota
+extraItems=org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.trash,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.diskquota,org.kde.plasma.vault,org.kde.plasma.printmanager
 hiddenItems=Arch-Update,Easy Effects,org.kde.plasma.kclock_1x2,NeoChat,openrgb,trayid35751,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.merkuro.contact.applet,org.kde.plasma.weather,org.kde.plasma.trash,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.diskquota
 iconSpacing=1
-knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][446][Applets][470]
 immutability=1
@@ -1008,6 +929,100 @@ systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 [Containments][446][General]
 AppletOrder=471;447;448;449;450;470
 
+[Containments][476]
+activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=luisbocanegra.smart.video.wallpaper.reborn
+
+[Containments][476][ConfigDialog]
+DialogHeight=787
+DialogWidth=720
+
+[Containments][476][General]
+positions={"2133x1200":[]}
+
+[Containments][476][Wallpaper][luisbocanegra.smart.video.wallpaper.reborn][General]
+BlurAnimationDuration=500
+BlurMode=3
+BlurRadius=20
+ChangeWallpaperMode=0
+LastVideo=file:///home/deck/Images/assets/bg/video/horizontal/animation_meme_flac.mp4
+MuteMode=2
+PauseBatteryLevel=20
+ResumeLastVideo=false
+VideoUrls=[{"filename":"file:///home/deck/Images/assets/bg/video/horizontal/animation_meme_flac.mp4","enabled":true,"duration":0,"customDuration":0,"playbackRate":0,"alternativePlaybackRate":0,"loop":true,"dayNightPhase":4}]
+Volume=0.02166748046875
+
+[Containments][477]
+ItemGeometries-2133x1200=
+ItemGeometriesHorizontal=
+activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][477][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][477][General]
+positions={"2133x1200":[]}
+
+[Containments][477][Wallpaper][org.kde.image][General]
+Image=/home/deck/Images/assets/bg/plasma_localsharewallpapers/landscape_artifyber/
+SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
+
+[Containments][478]
+ItemGeometries-1050x1680=
+ItemGeometriesVertical=
+activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][478][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][478][General]
+positions={"1050x1680":[]}
+
+[Containments][478][Wallpaper][org.kde.image][General]
+Image=/home/deck/Images/assets/bg/plasma_localsharewallpapers/portrait_mix/
+SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
+
+[Containments][479]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+formfactor=0
+immutability=1
+lastScreen=3
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][479][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][479][General]
+positions={"1920x1080":[]}
+
+[Containments][479][Wallpaper][org.kde.image][General]
+Image=/home/deck/Images/assets/bg/horizontal/bafkreifryatvoqr3gtfzc2n2qqgyihrs7gw4jg3opyucyokbinmavciluu.jpg
+SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
+
 [Containments442Appletsts][420][Configuration][General]
 launchers=preferred://filemanager,applications:kitty.desktop,applications:chromium.desktop
 middleClickAction=Close
@@ -1018,5 +1033,5 @@ wheelEnabled=AdjustVolume
 wheelSkipMinimized=false
 
 [ScreenMapping]
-itemsOnDisabledScreens=2,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,39,file:///home/kot/Games,file:///home/kot/a,file:///home/kot/MusiqueArchive,file:///home/kot/Unity,file:///home/kot/data,file:///home/kot/mumble-record,file:///home/kot/OpenMPT.desktop,file:///home/kot/hypnotize-money.gif,file:///home/kot/AppImages,file:///home/kot/vmware,file:///home/kot/Musique2,file:///home/kot/Images,file:///home/kot/speedtest-cli,file:///home/kot/backup,file:///home/kot/ALCOM,file:///home/kot/Public,file:///home/kot/qsstv,file:///home/kot/LICENSE,file:///home/kot/xrandr.sh,file:///home/kot/README.md,file:///home/kot/start-cde.sh,file:///home/kot/Roms,file:///home/kot/Beat Saber,file:///home/kot/steamvr,file:///home/kot/gameconfig,file:///home/kot/Musique,file:///home/kot/sshfs.sh,file:///home/kot/Documents,file:///home/kot/steam-guard-extractor-linux.sh,file:///home/kot/OyasumiVR,file:///home/kot/Vidéos,file:///home/kot/Téléchargements,file:///home/kot/config,file:///home/kot/hydrus_export,file:///home/kot/RomsTowerUnite,file:///home/kot/Software,file:///home/kot/Mumble-2026-07-15-18-56-04-100.64.226.70-Mixdown.opus,file:///home/kot/meow :3,file:///home/kot/cdesktopenv-code
-screenMapping=desktop:/Téléchargements/schoolnvme,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/utopianvee-260619-1834-part1,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/RomsTowerUnite,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.58.28.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/nitter 2021.02.08(1).png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/MusiqueArchive,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://readme.md,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Musique,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--vidos-dsa,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install-dms-shell.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/q3_50111670068200510.zip,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://public,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://lockplasma.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://material_diffuse.png,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/signal-2026-06-20-19-40-46-831_002.jpg,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/data,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/fed1123fdc8cbe90d77d68e3b103a231338eeedfe50360be0f6a6b22a4be5bbe.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musiquearchive,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/unlock.sh,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://qemu-8.2.2,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://roms,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Games,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://config,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://plasmapackages.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/oyasumi-linux.tar.zst,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/The Lab.desktop,3,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/lockplasma.sh,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/nitter tweet parser - fetches tags - 2020-07-30.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://backup,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-04,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Oyasumi,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/hydrus_export,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://steamvr,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.57.36.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Vidéos,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://package-lock.json,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2025-12,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/backup,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://alcom,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/nitter 2021.02.08.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://vmware,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Unity,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://software,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://documents,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/steam-guard-extractor-linux.sh,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/1a308d16560e03c8a42ae33a8a771065f05463e63a195c602289a801004cba5d.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hydrus_export,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img.xz,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-02,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/converted_gif.gif,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://projets,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/gameconfig,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://qemu-anti-detection,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/assets_SE_meow.ogg,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install_signal_theme.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Exposing Mintpaws .odt,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/utopianvee-260619-1834-part2,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/social_stream-main.zip,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-01,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/palette.json,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://virt.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://openrgb,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://romsold,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/RomsOld,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/HLH5UGraEAA2vPg.jpeg,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/zaaru (EXPLICIT).png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/hydrus-companion-master,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/compose.yaml,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/utopianvee-260619-1834,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://output.gif,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/STOP.gif,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/social-stream-ninja.xpi,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://games,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Half-Life VR Mod.desktop,3,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://images,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://dotfiles_backup_2026-05-22_18-19-55,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://license,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Roms,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--copiescran-g7a,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/login,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/vmware,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21(1).png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--tlchargements-bhbb,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/ssstwitter.com_1781835630447.mp4,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/catppuccin-mocha.theme,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musique,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Mumble-2026-07-15-18-56-04-100.64.226.70-Mixdown.opus,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-06,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/README.md,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/OyasumiVR,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://data,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://gameconfig,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Musique2,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/Reddit - All in One (08.Nov.2025).png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install_millennium.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Deadlock.desktop,3,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hyprland.lua.bak,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://reencode.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musique2,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/22. Version 1.7.zip,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Software,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://pkglist.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://towerunite_meowby_workshoprig_v3.dae,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/LICENSE,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Public,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200.zip,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hyprland.conf,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://meowbytexture.png,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-03,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/osu!.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://qemu-8.2.2.tar.xz,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Images,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/steamvr,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Beat Saber,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/config,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/CopiesÉcran,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://unlock.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements/2026-05,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/AppImages,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Documents,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://pacstrap.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+itemsOnDisabledScreens=0,1e89edd0-fed4-474c-b190-548d70c051cf,1,desktop:/remains.txt
+screenMapping=desktop:/remains.txt,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/remains.txt,0,1e89edd0-fed4-474c-b190-548d70c051cf

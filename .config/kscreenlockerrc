@@ -1,6 +1,8 @@
 [Daemon]
+LockOnResume=true
 Timeout=15
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/assets/bg/horizontal/Catgender_flag.png
+Image=file:///home/deck/Images/assets/bg/horizontal/Catgender_flag.png
+PreviewImage=file:///home/deck/Images/assets/bg/horizontal/Catgender_flag.png
 SlidePaths=/usr/share/wallpapers/
