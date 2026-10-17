@@ -27,6 +27,10 @@ PS2='> '
 __steamos_prompt_command() {
     PS1='\[\e[32;1m\]-\A-\[\e[31;1m\] $? \[\e[0m\e[34;1m\]=\[\e[96;1m\]\u\[\e[34;1m\]@\[\e[96;1m\]\h\[\e[34;1m\]= \[\e[33;1m\]\w \[\e[95;1m\]\$\[\e[0m\] '
 }
+__holo_prompt_command () {
+    PS1="\[\e[32;1m\]-\A-\[\e[31;1m\] $? \[\e[0m\e[34;1m\]=\[\e[96;1m\]\u\[\e[34;1m\]@\[\e[96;1m\]\h\[\e[34;1m\]= \[\e[33;1m\]\w \[\e[95;1m\]\$\[\e[0m\] "
+    return $?
+}
 
 HISTSIZE=100000
 HISTFILESIZE=10000000
@@ -44,3 +48,7 @@ export PATH="$PATH:$HOME/.lmstudio/bin"
 
 # Unity CLI
 case ":${PATH}:" in *:"$HOME/.local/bin":*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

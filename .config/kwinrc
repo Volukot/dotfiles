@@ -11,17 +11,47 @@ Rows=1
 EdgeBarrier=0
 
 [Effect-blur]
-BlurStrength=5
+BlurStrength=4
 NoiseStrength=0
+
+[Effect-hidecursor]
+InactivityDuration=15
+
+[Effect-mouseclick]
+LineWidth=2
+RingCount=1
+RingLife=200
+ShowText=false
 
 [Effect-mousemark]
 Arrowdrawalt=true
 Freedrawalt=true
 Freedrawcontrol=true
 Freedrawshift=false
+LineWidth=5
+
+[Effect-overview]
+BorderActivate=9
 
 [Effect-shakecursor]
 Magnification=10
+
+[Effect-trackmouse]
+Meta=false
+
+[Effect-translucency]
+ComboboxPopups=90
+Dialogs=90
+Menus=90
+
+[Effect-wobblywindows]
+AdvancedMode=true
+Drag=75
+MoveFactor=20
+Stiffness=27
+
+[ElectricBorders]
+BottomRight=KRunner
 
 [MouseBindings]
 CommandActiveTitlebar2=Lower
@@ -39,13 +69,25 @@ NightTemperature=1500
 [Plugins]
 blurEnabled=true
 desktopchangeosdEnabled=true
+fallapartEnabled=true
 gamecontrollerEnabled=true
+glideEnabled=true
+hidecursorEnabled=true
 magiclampEnabled=true
+mouseclickEnabled=true
 mousemarkEnabled=true
 mousetilerEnabled=true
 openwindowonactivescreenEnabled=true
+rememberwindowpositionsEnabled=true
+scaleEnabled=false
+sheetEnabled=true
+slidebackEnabled=true
 squashEnabled=false
 sticky-window-snappingEnabled=false
+touchpointsEnabled=true
+trackmouseEnabled=true
+translucencyEnabled=true
+wobblywindowsEnabled=true
 
 [Script-mousetiler]
 gridWidth=100
@@ -56,8 +98,8 @@ suggestOtherScreens=true
 suggestionsVisibility=2
 tileMargin=20
 
-[Tiling]
-padding=4
+[Script-rememberwindowpositions]
+restoreVirtualDesktop=false
 
 [Tiling][a9bc7387-9dd0-51a9-bb00-e260174b41c1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -67,6 +109,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bea209ee-3309-4925-a784-6bba4732665d][0e2f1786-e55f-4b63-b7f3-b0e5bbce80ab]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bea209ee-3309-4925-a784-6bba4732665d][17ce4a40-c660-4617-bed9-21131550709b]
@@ -102,12 +145,15 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bea209ee-3309-4925-a784-6bba4732665d][adc4fe05-f950-480f-8391-cbbc872b9d1a]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bea209ee-3309-4925-a784-6bba4732665d][ca915c15-0aac-473a-999d-9f84b7f06c36]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bea209ee-3309-4925-a784-6bba4732665d][eb53f62d-76f1-4f73-90c2-fdd568058dc5]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e8f8bf3d-791c-42ff-a8e7-e5001cab6742][]
@@ -115,6 +161,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e8f8bf3d-791c-42ff-a8e7-e5001cab6742][0e2f1786-e55f-4b63-b7f3-b0e5bbce80ab]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e8f8bf3d-791c-42ff-a8e7-e5001cab6742][17ce4a40-c660-4617-bed9-21131550709b]
@@ -150,12 +197,15 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e8f8bf3d-791c-42ff-a8e7-e5001cab6742][adc4fe05-f950-480f-8391-cbbc872b9d1a]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e8f8bf3d-791c-42ff-a8e7-e5001cab6742][ca915c15-0aac-473a-999d-9f84b7f06c36]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e8f8bf3d-791c-42ff-a8e7-e5001cab6742][eb53f62d-76f1-4f73-90c2-fdd568058dc5]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][ef5c38d9-7031-5990-b0bb-fdcbfa591a00]
@@ -169,12 +219,16 @@ EnablePrimarySelection=false
 InputMethod[$e]=/usr/share/applications/org.kde.plasma.keyboard.desktop
 
 [Windows]
+AutoRaise=true
+AutoRaiseInterval=3000
 CenterSnapZone=50
-DelayFocusInterval=1000
+DelayFocusInterval=2000
 ElectricBorderCooldown=250
-ElectricBorderDelay=0
+ElectricBorderDelay=100
+FocusPolicy=FocusFollowsMouse
 PerOutputVirtualDesktops=true
 RollOverDesktops=true
+SeparateScreenFocus=false
 
 [Windows_HDR]
 MaxFrameAverage=0

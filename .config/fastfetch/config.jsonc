@@ -33,6 +33,7 @@
     "memory",
     "swap",
     "disk",
+    "monitor",
     "battery",
     "poweradapter",
     "locale",
