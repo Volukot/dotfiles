@@ -511,8 +511,8 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][481][Applets][484][Configuration]
-popupHeight=400
-popupWidth=560
+popupHeight=454
+popupWidth=720
 
 [Containments][481][Applets][485]
 activityId=
@@ -731,8 +731,8 @@ immutability=1
 plugin=org.kde.plasma.windowlist
 
 [Containments][511][Applets][514][Configuration]
-popupHeight=61
-popupWidth=172
+popupHeight=145
+popupWidth=266
 
 [Containments][511][Applets][515]
 immutability=1
@@ -747,7 +747,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][511][Applets][516][Configuration]
-popupHeight=485
+popupHeight=452
 popupWidth=720
 
 [Containments][511][General]
@@ -930,7 +930,7 @@ DialogWidth=720
 [Containments][552][General]
 changedPositions={"desktop:/Hydrus_Network (1).desktop":["2133x1200","0","0"],"desktop:/Hydrus_Network.desktop":["2133x1200","4","10"],"desktop:/Minecraft (1).desktop":["2133x1200","0","1"],"desktop:/Minecraft.desktop":["2133x1200","5","7"],"desktop:/Wheel Wizard.desktop":["2133x1200","5","8"],"desktop:/app.fluxer.Fluxer.desktop":["2133x1200","4","8"],"desktop:/dev.vencord.Vesktop.desktop":["2133x1200","4","9"],"desktop:/io.github.TeamWheelWizard.WheelWizard.desktop":["2133x1200","5","8"],"desktop:/io.github.wivrn.wivrn.desktop":["2133x1200","5","10"],"desktop:/org.fooyin.fooyin.desktop":["2133x1200","3","11"],"desktop:/org.kde.discover.desktop":["2133x1200","4","11"],"desktop:/org.kde.dolphin.desktop":["2133x1200","3","8"],"desktop:/org.kde.konsole.desktop":["2133x1200","3","10"],"desktop:/org.kde.kontact.desktop":["2133x1200","3","9"],"desktop:/org.mozilla.firefox.desktop":["2133x1200","3","7"],"desktop:/signal.desktop":["2133x1200","4","7"],"desktop:/steam.desktop":["2133x1200","5","9"],"desktop:/systemsettings.desktop":["2133x1200","5","11"]}
 lastResolution=2133x1200
-positions={"2133x1200":["6","19","desktop:/Minecraft.desktop","5","7","desktop:/remains.txt","0","0","desktop:/Hydrus_Network.desktop","4","10","desktop:/org.kde.dolphin.desktop","3","8","desktop:/io.github.TeamWheelWizard.WheelWizard.desktop","5","8","desktop:/dev.vencord.Vesktop.desktop","4","9","desktop:/signal.desktop","4","7","desktop:/app.fluxer.Fluxer.desktop","4","8","desktop:/org.kde.kontact.desktop","3","9","desktop:/org.mozilla.firefox.desktop","3","7","desktop:/systemsettings.desktop","5","11","desktop:/org.kde.konsole.desktop","3","10","desktop:/org.kde.discover.desktop","4","11","desktop:/io.github.wivrn.wivrn.desktop","5","10","desktop:/Minecraft (1).desktop","0","1","desktop:/Hydrus_Network (1).desktop","0","0","desktop:/steam.desktop","5","9","desktop:/org.fooyin.fooyin.desktop","3","11","desktop:/Wheel Wizard.desktop","5","8"]}
+positions={"2133x1200":["1","19","desktop:/org.fooyin.fooyin.desktop","3","11","desktop:/signal.desktop","4","7","desktop:/dev.vencord.Vesktop.desktop","4","9","desktop:/Hydrus_Network.desktop","4","10","desktop:/steam.desktop","5","9","desktop:/systemsettings.desktop","5","11","desktop:/io.github.wivrn.wivrn.desktop","5","10","desktop:/org.kde.dolphin.desktop","3","8","desktop:/org.mozilla.firefox.desktop","3","7","desktop:/app.fluxer.Fluxer.desktop","4","8","desktop:/org.kde.kontact.desktop","3","9","desktop:/Hydrus_Network (1).desktop","0","0","desktop:/remains.txt","0","0","desktop:/org.kde.discover.desktop","4","11","desktop:/Wheel Wizard.desktop","5","8","desktop:/Minecraft (1).desktop","0","1","desktop:/Minecraft.desktop","5","7","desktop:/org.kde.konsole.desktop","3","10","desktop:/io.github.TeamWheelWizard.WheelWizard.desktop","5","8"]}
 sortMode=-1
 
 [Containments][552][Wallpaper][luisbocanegra.smart.video.wallpaper.reborn][General]
@@ -939,13 +939,14 @@ BlurMode=3
 BlurRadius=20
 ChangeWallpaperMode=0
 LastVideo=file:///home/deck/Images/assets/bg/video/horizontal/animation_meme_flac.mp4
-LastVideoPosition=28540
+LastVideoPosition=4580
 PauseBatteryLevel=20
 ResumeLastVideo=false
 VideoUrls=[{"filename":"file:///home/deck/Images/assets/bg/video/horizontal/animation_meme_flac.mp4","enabled":true,"duration":0,"customDuration":0,"playbackRate":0,"alternativePlaybackRate":0,"loop":true,"dayNightPhase":4}]
 Volume=0.02166748046875
 
 [Containments][553]
+ItemGeometries-1920x1080=
 ItemGeometries-2133x1200=
 ItemGeometriesHorizontal=
 activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
@@ -1028,4 +1029,4 @@ pin=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/dev.vencord.Vesktop.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Wheel Wizard.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Minecraft.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/org.kde.discover.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/app.fluxer.Fluxer.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/io.github.wivrn.wivrn.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/signal.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Hydrus_Network.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/org.fooyin.fooyin.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/org.kde.kontact.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/remains.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/remains.txt,0,1e89edd0-fed4-474c-b190-548d70c051cf,desktop:/steam.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/org.kde.konsole.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/systemsettings.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/org.kde.dolphin.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/org.mozilla.firefox.desktop,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+screenMapping=desktop:/remains.txt,0,1e89edd0-fed4-474c-b190-548d70c051cf,desktop:/remains.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137

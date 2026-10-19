@@ -9,7 +9,7 @@ Switch keyboard layout to Français=none,none,Passer à la disposition de clavie
 Switch keyboard layout to Français (Canada)=none,none,Passer à la disposition de clavier Français (Canada)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Basculer vers la dernière disposition de clavier
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Passer à la disposition de clavier suivante
-_k_friendly_name=Changeur de disposition de clavier
+_k_friendly_name=Commutateur de dispositions de clavier
 
 [com.github.wwmm.easyeffects]
 _k_friendly_name=Easy Effects
@@ -78,7 +78,7 @@ show_kt=Alt+Shift+T,Alt+Shift+T,Afficher/Cacher KTorrent
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activer une fenêtre réclamant de l'attention
 ClearLastMouseMark=Meta+Shift+Z,Meta+Shift+F12,Effacer la dernière marque de souris
-ClearMouseMarks=Meta+Shift+X,Meta+Shift+F11,Effacer les marques de souris
+ClearMouseMarks=Meta+Shift+X,Meta+Shift+F11,Effacer toutes les marques de souris
 Cycle Overview=none,none,Faire défiler les vues en aperçu et en grille
 Cycle Overview Opposite=none,none,Faire défiler les vues en aperçu et en grille
 Decrease Opacity=none,none,Diminuer l'opacité de la fenêtre active de 5 %
@@ -375,7 +375,6 @@ _launch=Meta\tSearch\tAlt+Space\tAlt+F2\tMeta+R
 ActiveWindowScreenShot=Ctrl+Print
 CurrentMonitorScreenShot=Shift+Print
 FullScreenScreenShot=Ctrl+Shift+Print
-OpenWithoutScreenshot=none
 RecordRegion=Meta+Print
 RecordScreen=Meta+Shift+Print
 RecordWindow=Meta+Ctrl+Print
