@@ -124,7 +124,7 @@ History Items[$e]=file:$HOME/Musique,file:$HOME/Software/AppImages,file:$HOME/So
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xae\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
-ColorSchemeHash=82b4c44acee81b0649998c07524d97c6131a5b22
+ColorSchemeHash=82f669cf546ddd0f0103c7e5b3df8d13777e7b58
 Name=COSMIC Dark
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -141,7 +141,6 @@ toolBarFont=Rubik,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 AnimationDurationFactor=0.5
-AutomaticLookAndFeel=true
 AutomaticLookAndFeelOnIdle=false
 DefaultDarkLookAndFeel=Catppuccin Mocha Pink (Kot)
 DefaultLightLookAndFeel=Catppuccin Latte Pink (Kot)

@@ -1,6 +1,28 @@
 [ActionPlugins][0]
+LeftButton;NoModifier=org.kde.applauncher
 MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
+
+[ActionPlugins][0][LeftButton;NoModifier]
+_add panel=false
+_context=true
+_display_settings=true
+_lock_screen=false
+_logout=false
+_open_terminal=false
+_run_command=false
+_sep1=true
+_sep2=true
+_sep3=true
+_sep4=true
+_wallpaper=true
+add widgets=false
+configure=true
+configure shortcuts=false
+desktop edit mode=true
+manage activities=true
+remove=true
+showAppsByName=true
 
 [ActionPlugins][0][RightButton;NoModifier]
 _add panel=false
@@ -21,6 +43,7 @@ configure shortcuts=false
 desktop edit mode=true
 manage activities=true
 remove=true
+showAppsByName=true
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
@@ -57,7 +80,7 @@ DialogWidth=810
 [Containments][343][Applets][344][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard
+url=https://www.imood.com/dashboard
 useDefaultUrl=true
 useMinViewWidth=false
 
@@ -79,8 +102,8 @@ immutability=1
 plugin=org.kde.plasma.windowlist
 
 [Containments][343][Applets][346][Configuration]
-popupHeight=61
-popupWidth=172
+popupHeight=117
+popupWidth=307
 
 [Containments][343][Applets][347]
 immutability=1
@@ -732,7 +755,7 @@ plugin=org.kde.plasma.windowlist
 
 [Containments][511][Applets][514][Configuration]
 popupHeight=145
-popupWidth=266
+popupWidth=307
 
 [Containments][511][Applets][515]
 immutability=1
@@ -896,15 +919,17 @@ showOnlyMinimized=true
 AppletOrder=536;518
 
 [Containments][552]
+ItemGeometries-1050x1680=Applet-471:944,1008,80,80,0;
 ItemGeometries-2133x1200=Applet-471:1024,1008,80,80,0;
 ItemGeometriesHorizontal=Applet-471:1024,1008,80,80,0;
+ItemGeometriesVertical=Applet-471:944,1008,80,80,0;
 activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=luisbocanegra.smart.video.wallpaper.reborn
+wallpaperplugin=org.kde.color
 
 [Containments][552][Applets][471]
 immutability=1
@@ -919,6 +944,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][552][Applets][471][Configuration][General]
+alphaSort=true
 favoritesPortedToKAstats=true
 paneSwap=true
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
@@ -928,9 +954,9 @@ DialogHeight=787
 DialogWidth=720
 
 [Containments][552][General]
-changedPositions={"desktop:/Hydrus_Network (1).desktop":["2133x1200","0","0"],"desktop:/Hydrus_Network.desktop":["2133x1200","4","10"],"desktop:/Minecraft (1).desktop":["2133x1200","0","1"],"desktop:/Minecraft.desktop":["2133x1200","5","7"],"desktop:/Wheel Wizard.desktop":["2133x1200","5","8"],"desktop:/app.fluxer.Fluxer.desktop":["2133x1200","4","8"],"desktop:/dev.vencord.Vesktop.desktop":["2133x1200","4","9"],"desktop:/io.github.TeamWheelWizard.WheelWizard.desktop":["2133x1200","5","8"],"desktop:/io.github.wivrn.wivrn.desktop":["2133x1200","5","10"],"desktop:/org.fooyin.fooyin.desktop":["2133x1200","3","11"],"desktop:/org.kde.discover.desktop":["2133x1200","4","11"],"desktop:/org.kde.dolphin.desktop":["2133x1200","3","8"],"desktop:/org.kde.konsole.desktop":["2133x1200","3","10"],"desktop:/org.kde.kontact.desktop":["2133x1200","3","9"],"desktop:/org.mozilla.firefox.desktop":["2133x1200","3","7"],"desktop:/signal.desktop":["2133x1200","4","7"],"desktop:/steam.desktop":["2133x1200","5","9"],"desktop:/systemsettings.desktop":["2133x1200","5","11"]}
+changedPositions={"desktop:/Hydrus_Network (1).desktop":["1050x1680,2133x1200","0","0"],"desktop:/Hydrus_Network.desktop":["1050x1680,2133x1200","4","10"],"desktop:/Minecraft (1).desktop":["1050x1680,2133x1200","0","1"],"desktop:/Minecraft.desktop":["1050x1680,2133x1200","5","7"],"desktop:/Wheel Wizard.desktop":["1050x1680,2133x1200","5","8"],"desktop:/app.fluxer.Fluxer.desktop":["1050x1680,2133x1200","4","8"],"desktop:/dev.vencord.Vesktop.desktop":["1050x1680,2133x1200","4","9"],"desktop:/io.github.TeamWheelWizard.WheelWizard.desktop":["1050x1680,2133x1200","5","8"],"desktop:/io.github.wivrn.wivrn.desktop":["1050x1680,2133x1200","5","10"],"desktop:/org.fooyin.fooyin.desktop":["1050x1680,2133x1200","3","11"],"desktop:/org.kde.discover.desktop":["1050x1680,2133x1200","4","11"],"desktop:/org.kde.dolphin.desktop":["1050x1680,2133x1200","3","8"],"desktop:/org.kde.konsole.desktop":["1050x1680,2133x1200","3","10"],"desktop:/org.kde.kontact.desktop":["1050x1680,2133x1200","3","9"],"desktop:/org.mozilla.firefox.desktop":["1050x1680,2133x1200","3","7"],"desktop:/signal.desktop":["1050x1680,2133x1200","4","7"],"desktop:/steam.desktop":["1050x1680,2133x1200","5","9"],"desktop:/systemsettings.desktop":["1050x1680,2133x1200","5","11"]}
 lastResolution=2133x1200
-positions={"2133x1200":["1","19","desktop:/org.fooyin.fooyin.desktop","3","11","desktop:/signal.desktop","4","7","desktop:/dev.vencord.Vesktop.desktop","4","9","desktop:/Hydrus_Network.desktop","4","10","desktop:/steam.desktop","5","9","desktop:/systemsettings.desktop","5","11","desktop:/io.github.wivrn.wivrn.desktop","5","10","desktop:/org.kde.dolphin.desktop","3","8","desktop:/org.mozilla.firefox.desktop","3","7","desktop:/app.fluxer.Fluxer.desktop","4","8","desktop:/org.kde.kontact.desktop","3","9","desktop:/Hydrus_Network (1).desktop","0","0","desktop:/remains.txt","0","0","desktop:/org.kde.discover.desktop","4","11","desktop:/Wheel Wizard.desktop","5","8","desktop:/Minecraft (1).desktop","0","1","desktop:/Minecraft.desktop","5","7","desktop:/org.kde.konsole.desktop","3","10","desktop:/io.github.TeamWheelWizard.WheelWizard.desktop","5","8"]}
+positions={"1050x1680":["1","9","desktop:/Wheel Wizard.desktop","5","8","desktop:/steam.desktop","5","9","desktop:/remains.txt","0","0","desktop:/app.fluxer.Fluxer.desktop","4","8","desktop:/org.kde.dolphin.desktop","3","8","desktop:/systemsettings.desktop","5","11","desktop:/org.kde.discover.desktop","4","11","desktop:/io.github.wivrn.wivrn.desktop","5","10","desktop:/dev.vencord.Vesktop.desktop","4","9","desktop:/Hydrus_Network (1).desktop","0","0","desktop:/Minecraft (1).desktop","0","1","desktop:/org.kde.konsole.desktop","3","10","desktop:/Hydrus_Network.desktop","4","10","desktop:/signal.desktop","4","7","desktop:/org.mozilla.firefox.desktop","3","7","desktop:/io.github.TeamWheelWizard.WheelWizard.desktop","5","8","desktop:/Minecraft.desktop","5","7","desktop:/org.kde.kontact.desktop","3","9","desktop:/org.fooyin.fooyin.desktop","3","11"],"2133x1200":["1","19","desktop:/org.kde.konsole.desktop","3","10","desktop:/org.mozilla.firefox.desktop","3","7","desktop:/app.fluxer.Fluxer.desktop","4","8","desktop:/dev.vencord.Vesktop.desktop","4","9","desktop:/systemsettings.desktop","5","11","desktop:/io.github.TeamWheelWizard.WheelWizard.desktop","5","8","desktop:/remains.txt","0","0","desktop:/org.kde.dolphin.desktop","3","8","desktop:/signal.desktop","4","7","desktop:/Wheel Wizard.desktop","5","8","desktop:/Hydrus_Network.desktop","4","10","desktop:/Minecraft.desktop","5","7","desktop:/steam.desktop","5","9","desktop:/org.fooyin.fooyin.desktop","3","11","desktop:/org.kde.discover.desktop","4","11","desktop:/Minecraft (1).desktop","0","1","desktop:/org.kde.kontact.desktop","3","9","desktop:/Hydrus_Network (1).desktop","0","0","desktop:/io.github.wivrn.wivrn.desktop","5","10"]}
 sortMode=-1
 
 [Containments][552][Wallpaper][luisbocanegra.smart.video.wallpaper.reborn][General]
@@ -939,11 +965,14 @@ BlurMode=3
 BlurRadius=20
 ChangeWallpaperMode=0
 LastVideo=file:///home/deck/Images/assets/bg/video/horizontal/animation_meme_flac.mp4
-LastVideoPosition=4580
+LastVideoPosition=10300
 PauseBatteryLevel=20
 ResumeLastVideo=false
 VideoUrls=[{"filename":"file:///home/deck/Images/assets/bg/video/horizontal/animation_meme_flac.mp4","enabled":true,"duration":0,"customDuration":0,"playbackRate":0,"alternativePlaybackRate":0,"loop":true,"dayNightPhase":4}]
 Volume=0.02166748046875
+
+[Containments][552][Wallpaper][org.kde.color][General]
+Color=0,0,0
 
 [Containments][553]
 ItemGeometries-1920x1080=
@@ -962,7 +991,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][553][General]
-changedPositions={"desktop:/remains.txt":["2133x1200,1920x1080","0","18"]}
+changedPositions={"desktop:/remains.txt":["1920x1080,2133x1200","0","18"]}
 lastResolution=2133x1200
 positions={"1920x1080":["1","17","desktop:/remains.txt","0","16"],"2133x1200":["1","19","desktop:/remains.txt","0","18"]}
 sortMode=-1
@@ -973,6 +1002,8 @@ SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][554]
 ItemGeometries-1050x1680=
+ItemGeometries-2133x1200=
+ItemGeometriesHorizontal=
 ItemGeometriesVertical=
 activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
 formfactor=0
@@ -1029,4 +1060,4 @@ pin=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/remains.txt,0,1e89edd0-fed4-474c-b190-548d70c051cf,desktop:/remains.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+screenMapping=desktop:/remains.txt,0,1e89edd0-fed4-474c-b190-548d70c051cf

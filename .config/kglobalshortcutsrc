@@ -9,7 +9,7 @@ Switch keyboard layout to Français=none,none,Passer à la disposition de clavie
 Switch keyboard layout to Français (Canada)=none,none,Passer à la disposition de clavier Français (Canada)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Basculer vers la dernière disposition de clavier
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Passer à la disposition de clavier suivante
-_k_friendly_name=Commutateur de dispositions de clavier
+_k_friendly_name=Changeur de disposition de clavier
 
 [com.github.wwmm.easyeffects]
 _k_friendly_name=Easy Effects
@@ -50,7 +50,7 @@ decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminuer le volume de 
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Augmenter le volume du microphone
 increase_volume=Volume Up,Volume Up,Augmenter le volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Augmenter le volume de 1 %
-mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
+mic_mute=Microphone Mute\tMeta+Volume Mute\tMeta+Alt+Del,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
 mute=Volume Mute,Volume Mute,Muet
 push_to_talk=none,none,Appuyer pour parler
 
